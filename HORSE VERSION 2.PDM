@@ -1,0 +1,181 @@
+[Root]
+Most Recent Package=Horse2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\horse
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+U:\WIN95\DESKTOP\HC VER2\HORSE 2.0.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+U:\WIN95\DESKTOP\HC VER2\HORSE 2.0.exe=$(ProgramFiles)\horse2
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+W:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+U:\WIN95\DESKTOP\HC VER2\HORSE 2.0.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=multi
+Size=1.44 MB
+Title=HORSE CHAMPIONSHIP  2.0
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=HORSE CHAMPIONSHIP  2.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|HORSE CHAMPIONSHIP  2.0]
+Icon1="HORSE 2.0.exe"
+Title1=HORSE CHAMPIONSHIP  2.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\horse
+ProjectFolder=U:\WIN95\DESKTOP\HC VER2
+ServerSideCab=
+File1=c:\horse\setup.exe
+File2=c:\horse\Setup.Lst
+File3=c:\horse\HORSE 1.CAB
+File4=c:\horse\HORSE 2.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
+
+
+[Package|Horse2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\horse
+
+[Package|Horse2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Horse2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Horse2|Files Found]
+
+[Package|Horse2|Files Released]
+
+[Package|Horse2|Missing Dependency Information]
+
+[Package|Horse2|Out-of-Date Dependency Information]
+
+[Package|Horse2|Files Added]
+
+[Package|Horse2|Files Removed]
+
+[Package|Horse2|Files In Project]
+U:\WIN95\DESKTOP\HC VER2\HORSE 2.0.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+
+[Package|Horse2|Configure Registry Files]
+Applicable=No
+
+[Package|Horse2|Configure Remote Servers]
+Applicable=No
+
+[Package|Horse2|Install Locations]
+U:\WIN95\DESKTOP\HC VER2\HORSE 2.0.exe=$(ProgramFiles)\horse2
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+W:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+\\Broad\vol1\Apps\Windows\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+
+[Package|Horse2|Configure Shared Files]
+Applicable=Yes
+U:\WIN95\DESKTOP\HC VER2\HORSE 2.0.exe=No
+
+[Package|Horse2|Distribution]
+Type=multi
+Size=720 KB
+Title=HORSE CHAMPIONSHIP  2.0
+
+[Package|Horse2|IconGroups]
+Group0=HORSE CHAMPIONSHIP  2.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Horse2|HORSE CHAMPIONSHIP  2.0]
+Icon1="HORSE 2.0.exe"
+Title1=HORSE CHAMPIONSHIP  2.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Horse2|Package]
+PackageFolder=c:\horse
+ProjectFolder=U:\WIN95\DESKTOP\HC VER2
+ServerSideCab=
+File1=c:\horse\setup.exe
+File2=c:\horse\Setup.Lst
+File3=c:\horse\HORSE 1.CAB
+File4=c:\horse\HORSE 2.CAB
+File5=c:\horse\HORSE 3.CAB
+Handler1=PDWizard.FloppyDplySubWiz
+Handler2=PDWizard.FolderDplySubWiz
+Handler3=PDWizard.WebPostDplySubWiz
